@@ -2,7 +2,7 @@ import './App.css'
 import About from './Components/Modules/About'
 import Home from './Components/Modules/Home'
 import Techstack from './Components/Modules/Techstack'
-import Projects from './Components/Modules/projects'
+import Projects from './Components/Modules/Projects'
 import Contact from './Components/Modules/Contact'
 function App() {
   return (

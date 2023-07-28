@@ -1,0 +1,26 @@
+.cd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tech_heading_1{
+    font-size: x-large;
+    text-align: center;
+    padding:10%;
+}
+.tech_heading_1 :hover{
+    text-decoration: underline;
+}
+.tech_discription{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+.list_heading{
+    text-align: center;
+    padding:10%;
+    color: blue;
+}
+ul{
+    text-align: center;
+}

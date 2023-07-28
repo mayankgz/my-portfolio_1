@@ -1,0 +1,11 @@
+#card_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;    
+}
+.tech_heading{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+}

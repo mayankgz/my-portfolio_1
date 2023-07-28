@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/Contact.css'
-import logo from '../../assets/logo.png'
 function Contact() {
     return (
         <div id="contact_back">

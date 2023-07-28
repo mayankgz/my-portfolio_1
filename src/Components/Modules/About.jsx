@@ -2,7 +2,6 @@ import React from 'react';
 import '../css/About.css';
 import Pic from '../../assets/photo.png'
 import Bg from '../../assets/bg.jpg'
-import Fade from 'react-reveal/Fade';
 function About() {
     let container = document.querySelector(".container");
     let foregrounds = document.querySelectorAll(".foreground");
@@ -17,9 +16,9 @@ function About() {
   return(
     <div id='About'>
         <div id="about_heading">
-            <Fade delay={1000} ><h1>Hi There!</h1></Fade>
+            <h1>Hi There!</h1>
         </div>
-        <Fade delay={1500}><div id='outer_container'>
+        <div id='outer_container'>
             <div id='left_container'>
                     <div id='about_me'><h2>About Me</h2></div>
                     <div id='left_container_text'>
@@ -38,7 +37,6 @@ function About() {
                 
             </div>
         </div>
-        </Fade>
     </div>
   )
 }

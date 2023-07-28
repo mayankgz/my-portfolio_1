@@ -1,8 +1,4 @@
 import { Tilt } from 'react-tilt'
-import React1 from '../../assets/react.svg';
-import Mern from '../../assets/mern.png';
-import Pic from '../../assets/photo.png';
-import Fade from 'react-reveal/Fade';
 import '../css/card.css';
 const defaultOptions = {
 	reverse:        false,  // reverse the tilt direction
@@ -18,7 +14,6 @@ const defaultOptions = {
 
 const Card = (props) => {
   return (
-    <Fade delay={1000}>
     <Tilt options={defaultOptions} style={{ height:"auto", width: 300, border:"1px solid black",padding:"2rem"}}>
       <div className='cd'>
         {/* <div className='top'>{props.heading}</div> */}
@@ -29,7 +24,6 @@ const Card = (props) => {
         <div className='list_heading'>{props.extra_heading}</div>
         <p className='tech_discription'>{props.extra_disc}</p>
         <div className='list_heading'>{props.list_heading}</div>
-        <Fade left cascade delay={500}>
         <ul>
             <li>
                 {props.item_1}
@@ -45,11 +39,9 @@ const Card = (props) => {
             <li>{props.item_6}</li>
             <li>{props.item_7}</li>
         </ul>
-        </Fade>
         </div>
       </div>
     </Tilt>
-    </Fade>
   )
 }
 export default Card;

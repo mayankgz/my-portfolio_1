@@ -1,5 +1,4 @@
 import React from 'react'
-import Project_card from './Project_card'
 import ai from '../../assets/we-connect.jpg'
 import gspot from '../../assets/goal-spot.jpg'
 import campus from '../../assets/campus-blocks.jpg'

@@ -139,7 +139,7 @@ hr{
         left:100%
     }
 }
-@media(max-width:700px) {
+@media(max-width:780px) {
     footer{
         bottom: unset;
     }
@@ -149,6 +149,8 @@ hr{
     .col:nth-child(2),.col:nth-child(3){
         flex: 100%;
     }
+    .para_footer{
+        display:none
+    }
 
 }
-

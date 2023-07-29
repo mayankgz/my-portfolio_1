@@ -27,11 +27,6 @@
     position: absolute;
     backface-visibility: hidden;
   }
-  
-  /* .front {
-    background-image: url(https://source.unsplash.com/random/350x500);
-  } */
-  
   .back {
     /* background-color: #3a3a3a; */
     transform: rotateY(180deg);
@@ -41,4 +36,7 @@
     align-items: center;
     gap: 5rem;
     border-radius: 5%;
+  }
+  @media screen and (max-width:785px) {
+      
   }

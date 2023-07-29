@@ -1,0 +1,90 @@
+.nav_2{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+.nav_toggle{
+    color: white;
+    display:none
+}
+.temp{
+    width:35%
+}
+.Nav_items{
+    color: white;
+    align-items: end;
+    float: right;
+    width: 50%;
+}
+.Nav_items ul{
+    display: flex;
+    flex-direction: row;
+}
+.Nav_items ul li{
+    padding: 4%;
+}
+.Nav_items ul li:hover{
+    color: blue;
+    cursor: pointer;
+}
+#logo_image{
+    height: 13%;
+    width: 13%;
+}
+.Nav_items ul li a{
+    color: white;
+}
+.Nav_items ul li a :hover{
+    color: blue;
+}
+@media screen and (max-width:1024px){
+    .nav_2{
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        width:80%;
+    }
+    .temp{
+        width:35%
+    }
+    #logo_image{
+        padding-right: 2%;
+        height: 13%;
+        width: 13%;
+    }
+    .Nav_items ul li{
+        padding: 3%;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav_2{
+        width: 100%;
+        align-items: start;
+        justify-content: left;
+        padding: 2%;
+    }
+    .temp{
+        width: 0%;
+    }
+    .Nav_items{
+        display: none;
+    }
+    .nav_toggle{
+        display:block;
+        color: aliceblue;
+        align-items: end;
+        justify-content: right;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    #image{
+        padding: -2%;
+        align-items: center;
+        justify-content: center;
+    }    
+}

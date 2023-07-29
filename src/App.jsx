@@ -12,6 +12,7 @@ function App() {
         <Techstack/>
         <Projects/>
         <Contact/>
+        {/* <Nav/> */}
     </div>
   )
 }

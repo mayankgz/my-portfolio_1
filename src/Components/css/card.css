@@ -16,11 +16,22 @@
     font-family: 'Orbitron', sans-serif;
     text-align: center;
 }
+.hello{
+    display: none;
+}
 .list_heading{
     text-align: center;
     padding:10%;
     color: blue;
+    display: block;
 }
 ul{
     text-align: center;
+}
+@media screen and (max-width:780px) {
+    .tech_discription{
+        font-family: 'Orbitron', sans-serif;
+        text-align: center;
+        display: none;
+    }
 }

@@ -7,7 +7,7 @@ function Contact() {
                 <div className='row'>
                     <div className='col'>
                         {/* <img src={logo} className='logo'/> */}
-                        <p> I am excited about the endless possibilities that lie ahead in the world of web development. My expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack empowers me to create powerful and efficient web applications that cater to modern user needs. I take pride in my problem-solving abilities and my passion for writing clean, scalable code.</p>
+                        <p className='para_footer'> I am excited about the endless possibilities that lie ahead in the world of web development. My expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack empowers me to create powerful and efficient web applications that cater to modern user needs. I take pride in my problem-solving abilities and my passion for writing clean, scalable code.</p>
                     </div>
                     <div className='col'>
                         <h3>Address<div className='underline'><span></span></div></h3>

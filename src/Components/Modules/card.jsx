@@ -20,7 +20,7 @@ const Card = (props) => {
         <img src={props.src}/>
         <div className='bottom'>
         <div className='tech_heading_1'><b> {props.heading}</b></div>
-        <div className='tech_discription'><p>{props.text}</p></div>
+        <div className='tech_discription'><p className="hello">{props.text}</p></div>
         <div className='list_heading'>{props.extra_heading}</div>
         <p className='tech_discription'>{props.extra_disc}</p>
         <div className='list_heading'>{props.list_heading}</div>

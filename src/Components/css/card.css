@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .tech_heading_1{
     font-size: x-large;
@@ -34,4 +35,21 @@ ul{
         text-align: center;
         display: none;
     }
+    .tech_heading_1{
+        font-size:medium;
+        padding: 5%
+    }
+    .list_heading{
+        padding: 0%
+    }
+}
+@media screen and (max-width:425px) {
+    .tech_heading_1{
+        font-size:medium;
+        padding: 5%
+    }
+    .list_heading{
+        padding: 0%
+    }
+
 }

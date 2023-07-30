@@ -23,8 +23,8 @@ function About() {
                 <div class='container'>
                     <div className='card-container'>
                         <div className="card">
-                            <img class="background" src={Bg} alt="" />
-                            <img class="foreground" src={Pic} alt="" />
+                            <img className="background" src={Bg} alt="" />
+                            <img className="foreground" src={Pic} alt="" />
                         </div>
                     </div>
                 </div>

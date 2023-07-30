@@ -9,3 +9,10 @@
     font-size: xx-large;
     margin-bottom: 2rem;
 }
+@media screen and (max-width:425px) {
+    #card_section{
+        display: flex;
+        flex-direction: row; 
+        width:100%;
+    }
+}

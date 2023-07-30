@@ -5,10 +5,10 @@ function Navbar() {
   return (
     <div>
     
-   <div className='nav_toggle'> <i class="fa-solid fa-bars"></i></div> 
+    
 <nav class="border-white-200 dark:bg-gray-900 absolute top-6 right-24 flex items-center mb-4 justify-between"> 
 
-<img id='image' src={Pic} />
+<div id='home_page_logo'><div className='nav_toggle'> <i class="fa-solid fa-bars"></i></div><img id='image' src={Pic} /></div>
   <div class="max-w-screen-md flex flex-wrap items-center justify-between  p-4 relative" >
     <div class="hidden w-full md:block md:w-auto" id="navbar-default">
       <ul class="font-large flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 dark:border-gray-700 text-white-500 right-24 check">

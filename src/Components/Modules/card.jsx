@@ -14,7 +14,7 @@ const defaultOptions = {
 
 const Card = (props) => {
   return (
-    <Tilt options={defaultOptions} style={{ height:"auto", width: 300, border:"1px solid black",padding:"2rem"}}>
+    <Tilt options={defaultOptions} style={{ height:"auto", width: "100%", border:"1px solid black"}}>
       <div className='cd'>
         {/* <div className='top'>{props.heading}</div> */}
         <img src={props.src}/>

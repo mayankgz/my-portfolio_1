@@ -46,10 +46,13 @@ ul{
 @media screen and (max-width:425px) {
     .tech_heading_1{
         font-size:medium;
-        padding: 5%
+        padding: 10%
     }
     .list_heading{
-        padding: 0%
+        padding: 5%
+    }
+    .cd{
+        width: 100%;
     }
 
 }

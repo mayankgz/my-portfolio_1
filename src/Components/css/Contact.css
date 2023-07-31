@@ -27,11 +27,7 @@ footer{
 .col:nth-child(2),.col:nth-child(3){
     flex: 15%;
 }
-.logo{
-    width: 80px;
-    height: 120px;
-    margin-bottom: 30px;
-}
+
 .col h3{
     width: fit-content;
     margin-bottom: 40px;
@@ -66,7 +62,7 @@ form .fa-regular{
 form input{
     width: 100%;
     background: transparent;
-    color: #ccc;
+    color:black;
     border: 0;
 }
 form button{
@@ -90,7 +86,7 @@ form .fa-solid fa-arrow-right{
     background: #fff;
     margin-right: 15px;
 }
-.fa-brands{
+.social-icon .fa-brands{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -153,4 +149,8 @@ hr{
         display:none
     }
 
+}
+.social-icon{
+    display: flex;
+    flex-direction: row;
 }

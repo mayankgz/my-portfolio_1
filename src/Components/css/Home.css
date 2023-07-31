@@ -1,3 +1,4 @@
+
 canvas {
     position: absolute;
     width: 100%;
@@ -41,7 +42,9 @@ canvas {
   }
   .nav_toggle{
     color: white;
+    display: none;
   }
+
   @media screen and (max-width:725px) {
       #home{
         overflow: hidden;
@@ -68,6 +71,7 @@ canvas {
   } */
   @media screen and (max-width:425px) {
     .nav_toggle{
+      display: block;
       font-size: 30px;
       padding-left: 3px;
       padding-right: 3px;
@@ -86,5 +90,17 @@ canvas {
     #image{
       width:25%;
       height: 25%;
+    }
+  }
+  @media screen and (max-width:768px) {
+    .nav_toggle{
+      display: block;
+      font-size: 30px;
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+    #home_page_logo{
+      display: flex;
+      flex-direction: row;
     }
   }

@@ -1,12 +1,12 @@
 import React from 'react'
 import '../css/Contact.css'
+import logo from '../../assets/logo.png'
 function Contact() {
     return (
         <div id="contact_back">
             <footer>
                 <div className='row'>
                     <div className='col'>
-                        {/* <img src={logo} className='logo'/> */}
                         <p className='para_footer'> I am excited about the endless possibilities that lie ahead in the world of web development. My expertise in the MERN (MongoDB, Express.js, React.js, Node.js) stack empowers me to create powerful and efficient web applications that cater to modern user needs. I take pride in my problem-solving abilities and my passion for writing clean, scalable code.</p>
                     </div>
                     <div className='col'>
@@ -20,26 +20,28 @@ function Contact() {
                     <div className='col'>
                         <h3>Links <div className='underline'><span></span></div></h3>
                         <ul>
-                            <li><a href=''>Home</a></li>
-                            <li><a href=''>About</a></li>
-                            <li><a href=''>Tech Stack</a></li>
-                            <li><a href=''>Projects</a></li>
-                            <li><a href=''>Contacts</a></li>
+                            <li><a href='#home'>Home</a></li>
+                            <li><a href='#About'>About</a></li>
+                            <li><a href='#Tech_Stack'>Tech Stack</a></li>
+                            <li><a href='#Proj'>Projects</a></li>
+                            <li><a href='#contact_back'>Contacts</a></li>
                         </ul>
                     </div>
                     <div className='col'>
                         <h3>Newsletter<div className='underline'><span></span></div></h3>
-                        <form>
+                        <form  action='https://formsubmit.co/mayankgagneja2002@gmail.com' method="POST">
+                            
                             <i class="fa-regular fa-envelope"></i>
                             <input type='email' placeholder='enter your Email-id' required></input>
                             <button type='submit'> <i class="fa-solid fa-arrow-right"></i></button>
                         </form>
                     </div>
                     <div className='social-icon'>
-                    <i class="fa-solid fa-code"></i>
-                    <i class="fa-brands fa-linkedin"></i>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-github"></i>
+                    <div><a href='https://www.facebook.com/sunil.gagneja.79/' target='blank'> <i class="fa-brands fa-facebook"></i></a></div>
+                    <div><a href='https://www.linkedin.com/in/mayank-gagneja-9b626b212/' target='blank'><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div><a href='https://leetcode.com/mayankgagneja2002/' target='blank'><i class="fa-solid fa-code"></i></a></div>
+                    
+                    <div><a href='https://github.com/mayankgz' target='blank'><i class="fa-brands fa-github"></i></a></div>
                     </div>
                 </div>
                 <hr/>
